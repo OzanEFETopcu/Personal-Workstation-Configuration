@@ -3,7 +3,7 @@
 # Dotfiles installation script
 # This script creates symbolic links from your home directory to your dotfiles repo
 
-DOTFILES_DIR="$HOME/dotfiles"
+DOTFILES_DIR="$HOME/ws_conf"
 
 # Colors for output
 RED='\033[0;31m'
