@@ -1,0 +1,10 @@
+[include]
+	path = ~/.gitconfig.local
+[pull]
+	rebase = false
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[alias]
+	fuck = !git add . && git commit --amend --no-edit && git push origin $(git branch --show-current) --force
